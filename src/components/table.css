@@ -1,0 +1,49 @@
+.container{
+   
+    margin:20px auto;
+    width:100%
+}
+table{
+    width:100%;
+}
+thead{
+    background-color: #5454ff;
+    color:#fff;
+}
+th{
+    padding: 10px;
+}
+tr{
+    padding: 10px;
+    text-align: center;
+}
+td{
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #f6f6f6;
+}
+.edit{
+    border:none;
+    padding: 5px 15px;
+    color: black;
+    background-color: rgb(233, 233, 70);
+    margin: 5px;
+    border-radius: 5px;
+}
+.delete{
+    border:none;
+    padding: 5px 15px;
+    color: #fff;
+    background-color: rgb(240, 74, 102);
+    margin: 5px;
+    border-radius: 5px;
+}
+.edit:hover, .delete:hover{
+    cursor: pointer;
+}
+h3{
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 400px;
+}
